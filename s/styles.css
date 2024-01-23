@@ -89,6 +89,8 @@ li {
     margin-left: 75px;  
 }
 .login { 
+  margin-left: auto;
+  margin-right: auto;
   width: 65px;
   height: 25px; 
   font-family: 'Headland One';
