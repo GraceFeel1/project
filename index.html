@@ -26,27 +26,27 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div class="conteiner">
             <div class="box1"></div>
             <div class="headbox">
-                <a class="headsulka" href="#">Головна</a>
-                <a class="headsulka" href="#">Про нас</a>
-                <a class="headsulka" href="#">Контакти</a>
+                <a class="headsulka scroll" href="#header">Головна</a>
+                <a class="headsulka scroll" href="#mova">Про нас</a>
+                <a class="headsulka scroll" href="#footer">Контакти</a>
             </div>
             <div>
-                <button type="button" class="loginbutton">
+                <a href="#" class="loginbutton">
                     Увійти
-                </button>
+                </a>
             </div>
             <div class="switchlanguage">
                 <p class="language1">UA</p>
-                    <div class="switcher">
-                        <label class="switch">
-                            <input type="checkbox">
-                            <a href="eng.html"><span class="slider round"></span></a>
-                        </label>
-                    </div>
+                <div class="switcher">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <a href="eng.html"><span class="slider round"></span></a>
+                    </label>
+                </div>
                 <p class="language2">ENG</p>
             </div>
         </div>
@@ -65,7 +65,7 @@
                         <li><a class="youtube" href="#"></a></li>
                     </ul>
                 </div>
-                <div class="group47img"><img src="photo/Rectangle53.png" alt=""></div>
+                <div class="group47img"><img src="photo/Rectangle53.png" alt="Rectangle53"></div>
                 <div>
                     <p class="group47ua">Хоробрий воїне, звертаюсь до тебе!
                         Твій дух йде з Ейвою,
@@ -73,9 +73,9 @@
                         щоб стати частиною Народу.
                         Борись разом з нами!</p>
                 </div>
-                <div><button type="button" class="headbutton">
+                <div><a href="https://www.avatar.com" class="heada" target="_blank">
                         Приєднатися до клану
-                    </button></div>
+                    </a></div>
             </div>
         </div>
         <div class="group48">
@@ -85,7 +85,8 @@
             <img src="/photo/Rectangle8.png" alt="bird">
         </div>
         <div class="group38">
-            <div><button type="button" class="group38button">Дивитись трейлер</button></div>
+            <div><a href="https://www.youtube.com/watch?v=tdBdkxwQY-Q" class="group38a" target="_blank">Дивитись
+                    трейлер</a></div>
         </div>
         <div class="group48">
             <h1 class="group49h">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</h1>
@@ -93,31 +94,36 @@
             <p class="group48p">Джейк Саллі</p>
             <img src="/photo/Rectangle8.png" alt="bird">
         </div>
-        <div class="group40">
+        <div class="group40" id="mova">
             <h3 class="group40h">Вчимо мову На’ві</h3>
             <ul class="group40ul">
                 <li class="group40box">
-                    <p class="group40p1">Привіт</p><img class="group40img" src="photo/Rectangle42.png" alt="">
+                    <p class="group40p1">Привіт</p><img class="group40img" src="photo/Rectangle42.png"
+                        alt="Rectangle42">
                     <h4 class="group40h1">Kaltxì</h4>
                 </li>
                 <li class="group40box">
-                    <p class="group40p2">Як справи?</p><img class="group40img" src="photo/Rectangle99.png" alt="">
+                    <p class="group40p2">Як справи?</p><img class="group40img" src="photo/Rectangle99.png"
+                        alt="Rectangle99">
                     <h4 class="group40h2">Ngaru lu fpom srak?</h4>
                 </li>
                 <li class="group40box">
-                    <p class="group40p3">Все добре</p><img class="group40img" src="photo/Rectangle96.png" alt="">
+                    <p class="group40p3">Все добре</p><img class="group40img" src="photo/Rectangle96.png"
+                        alt="Rectangle9">
                     <h4 class="group40h3">Lu fpom</h4>
                 </li>
                 <li class="group40box">
-                    <p class="group40p4">Дякую</p><img class="group40img" src="photo/Rectangle42.png" alt="">
+                    <p class="group40p4">Дякую</p><img class="group40img" src="photo/Rectangle42.png" alt="Rectangle42">
                     <h4 class="group40h4">Irayo si</h4>
                 </li>
                 <li class="group40box">
-                    <p class="group40p5">Я бачу тебе</p><img class="group40img" src="photo/Rectangle99.png" alt="">
+                    <p class="group40p5">Я бачу тебе</p><img class="group40img" src="photo/Rectangle99.png"
+                        alt="Rectangle99">
                     <h4 class="group40h5">Oel ngati kameie</h4>
                 </li>
                 <li class="group40box">
-                    <p class="group40p6">Слідуй за мною!</p><img class="group40img" src="photo/Rectangle96.png" alt="">
+                    <p class="group40p6">Слідуй за мною!</p><img class="group40img" src="photo/Rectangle96.png"
+                        alt="Rectangle96">
                     <h4 class="group40h6">Nong oet!</h4>
                 </li>
             </ul>
@@ -129,7 +135,7 @@
             <img src="/photo/Rectangle8.png" alt="bird">
         </div>
     </main>
-    <footer class="group142">
+    <footer class="group142" id="footer">
         <div class="box2"></div>
         <div class="line"><img src="/photo/Line 37.png" alt=""></div>
         <div class="group45">
@@ -142,6 +148,24 @@
             <p class="group45p">©2023 Avatar: The Way Of Water. All rights reserved</p>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var scrollLinks = document.querySelectorAll('.scroll');
+
+            scrollLinks.forEach(function (scrollLink) {
+                scrollLink.addEventListener('click', function (event) {
+                    event.preventDefault();
+
+                    var targetId = this.getAttribute('href').substring(1);
+                    var targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

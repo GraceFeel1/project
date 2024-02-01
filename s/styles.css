@@ -1,3 +1,12 @@
+body, html {
+  
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+main { 
+  margin-top: 3px;
+}
 a {
   text-decoration: none;
 }
@@ -9,7 +18,7 @@ li {
 .conteiner {
   display: flex;
   flex-wrap: wrap;
-  width: 1440px;
+  width: 100%;
   height: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -36,38 +45,35 @@ li {
 .headbox {
   margin-top: 63px;
   margin-left: 185px;
-  width: 420px;
+  width: 430px;
   height: 24px;
 
 }
 
-.headsulka:nth-child(1) {
+.headsulka:nth-child(1) {   
   font-weight: 600;
   color: rgba(148, 207, 255, 1);
   text-decoration: none;
   font-size: 21px;
-  width: 82px;
   height: 24px;
   top: 63px;
   left: 558px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-size: 20px;
   font-weight: 600px;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
-
-
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headsulka:nth-child(2) {
   text-decoration: none;
-  width: 78px;
   height: 24px;
   top: 63px;
   left: 678px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-size: 20px;
   font-weight: 300px;
   line-height: 24px;
@@ -75,29 +81,32 @@ li {
   text-align: center;
   color: rgba(255, 255, 255, 1);
   margin-left: 75px;
-
-
-
+  margin-right: 75px;
 }
 
 .headsulka:nth-child(3) {
   text-decoration: none;
-  width: 89px;
   height: 24px;
   top: 63px;
   left: 794px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-size: 20px;
   font-weight: 300px;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  margin-left: 75px;
+  margin-left: 0;
+  
 }
-
+.headsulkaeng {
+  margin-right: 35px !important;
+}
+.headsulkaeng2 {
+  margin-left: -5px !important;
+}
 .loginbutton {
-  border-radius: 35px, 0px, 35px, 0px;
+  display: block;
   border: 0;
   background: rgba(255, 255, 255, 0);
   background-image: url(/photo/Group\ 14.png);
@@ -114,24 +123,25 @@ li {
   letter-spacing: 0em;
   text-align: center;
   color: rgba(38, 198, 234, 1);
+  padding: 8px 38px;
 }
-
+.loginbuttoneng { 
+  padding: 8px 36px;
+}
 .loginbutton:hover {
   cursor: pointer;
 }
 
-.headbutton {
-  border: 0;
+.heada {
+  display: block;
   background: rgba(255, 255, 255, 0);
-  background-image: url(/photo/Group\ 14.png);
+  background-image: url(/photo/Rectangle85.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 260px;
   height: 80px;
   top: 631px;
   left: 204px;
-  border-radius: 45px, 0px, 45px, 0px;
-  border: 3px;
   background-size: 260px, cover;
   margin-top: 20px;
   font-family: 'Headland One';
@@ -143,8 +153,11 @@ li {
   color: rgba(38, 199, 234, 1);
   margin-left: 26px;
   text-decoration: none;
+  padding: 11px 45px;
 }
-
+.headaeng { 
+  padding: 25px 75px;
+}
 .headbutton:hover {
   cursor: pointer;
 }
@@ -221,6 +234,18 @@ input:checked+.slider:before {
   -ms-transform: translateX(17px);
   transform: translateX(17px);
 }
+.slidereng {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 16.6px;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(204, 204, 204, 0.);
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
 
 .language1 {
   width: 30px;
@@ -265,7 +290,7 @@ input:checked+.slider:before {
 .mainconteiner {
   display: flex;
   flex-wrap: wrap;
-  width: 1440px;
+  width: 100%;
   height: 740px;
   margin-left: auto;
   margin-right: auto;
@@ -399,46 +424,46 @@ input:checked+.slider:before {
   letter-spacing: 0em;
   text-align: center;
   color: rgba(0, 0, 0, 1);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
 }
 
 .group38 {
   display: flex;
   flex-wrap: wrap;
-  width: 1440px;
+  width: 100%;
   height: 741px;
-  top: 1240px;
-  background-image: url(/photo/Rectangle\ 10.png);
-  background-repeat: repeat;
-  background-position: center;
   margin-left: auto;
   margin-right: auto;
+  background-repeat: repeat;
+  background-position: center;
+  top: 1240px;
+  background-image: url(/photo/Rectangle10.png);
+  background-size: cover;
 }
 
-.group38button {
-  border: 0;
+.group38a {
+  display: block;
   background: rgba(255, 255, 255, 0);
-  background-image: url(/photo/Group\ 14.png);
+  background-image: url(/photo/Rectangle85.png
+  );
   background-repeat: no-repeat;
   background-position: center;
-  width: 260px;
+  width: 280px;
   height: 80px;
-  top: 1570px;
-  left: 590px;
-  border-radius: 45px, 0px, 45px, 0px;
   background-size: 260px, cover;
-  margin-left: 590px;
   margin-top: 330px;
-  font-family: 'Headland One', sans-serif;
-  
-  font-size: 21px;
+  font-family: 'Headland One';
+  font-size: 24px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
   color: rgba(38, 199, 234, 1);
   text-decoration: none;
+  margin-right: auto;
+  margin-left: 600px;
+  padding: 25px 20px;
 }
 
 .group38button:hover {
@@ -450,7 +475,7 @@ input:checked+.slider:before {
   margin-right: auto;
   width: 886px;
   height: 44px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
   font-size: 36px;
   font-weight: 400;
@@ -466,7 +491,7 @@ input:checked+.slider:before {
 .group40 {
   display: flex;
   flex-wrap: wrap;
-  width: 1440px;
+  width: 100%px;
   height: 704px;
   top: 2331px;
   margin-left: auto;
@@ -486,7 +511,7 @@ input:checked+.slider:before {
   height: 40px;
   top: 2389px;
   left: 577px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 32px;
   font-weight: 400;
@@ -522,7 +547,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2510px;
   left: 324px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -539,7 +564,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2510px;
   left: 324px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -556,7 +581,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2510px;
   left: 324px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -573,7 +598,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2510px;
   left: 324px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -590,7 +615,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2510px;
   left: 324px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -607,7 +632,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2510px;
   left: 324px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -634,7 +659,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2654px;
   left: 326px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -651,7 +676,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2654px;
   left: 326px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -669,7 +694,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2654px;
   left: 326px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -687,7 +712,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2654px;
   left: 326px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -705,7 +730,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2654px;
   left: 326px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -722,7 +747,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 2654px;
   left: 326px;
-  font-family: 'Headland One', sans-serif;
+  font-family: 'Headland One';
   ;
   font-size: 24px;
   font-weight: 400;
@@ -741,7 +766,7 @@ input:checked+.slider:before {
 }
 
 .group50h {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
   margin-left: auto;
   margin-right: auto;
@@ -759,7 +784,7 @@ input:checked+.slider:before {
 .group142 {
   display: flex;
   flex-wrap: wrap;
-  width: 1440px;
+  width: 100%;
   height: 223px;
   top: 3385px;
   border: 0px, 0px, 3px, 0px;
@@ -818,7 +843,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 3465px;
   left: 547px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
   font-size: 20px;
   font-weight: 400;
@@ -835,7 +860,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 3465px;
   left: 963px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
   font-size: 20px;
   font-weight: 400;
@@ -860,7 +885,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 3505px;
   left: 547px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
   font-size: 20px;
   font-weight: 400;
@@ -877,7 +902,7 @@ input:checked+.slider:before {
   height: 24px;
   top: 3465px;
   left: 963px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
   font-size: 20px;
   font-weight: 400;
@@ -893,7 +918,7 @@ input:checked+.slider:before {
   height: 17px;
   top: 3566px;
   left: 678px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   ;
   font-size: 14px;
   font-weight: 400;
