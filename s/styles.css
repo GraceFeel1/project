@@ -213,7 +213,7 @@ li {
   content: "";
   height: 12px;
   width: 12px;
-  left: 3px;
+  left: 4.5px;
   bottom: 4px;
   background-color: white;
   -webkit-transition: .4s;
@@ -238,7 +238,7 @@ input:checked+.slider:before {
   position: absolute;
   cursor: pointer;
   top: 0;
-  left: 16.6px;
+  left: 14px;
   right: 0;
   bottom: 0;
   background-color: rgba(204, 204, 204, 0.);
