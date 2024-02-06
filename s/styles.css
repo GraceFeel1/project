@@ -26,7 +26,7 @@ li {
   background-position: center;
   background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(/photo/Rectangle104.jpg);
   background-size: cover;
-  z-index: 1;
+  z-index: 1 !important;
 }
 
 .box1 {
@@ -36,7 +36,7 @@ li {
   background-image: url(/photo/avatar-2-6235acaebf9262.png);
   background-repeat: no-repeat;
   background-position: left;
-  z-index: 2;
+  z-index: 2 !important;
   margin-left: 160px;
   margin-top: 39px;
 
@@ -297,7 +297,7 @@ input:checked+.slider:before {
   background-position: center;
   background-image: linear-gradient(to right, rgba(43, 74, 97, 0.25), rgba(43, 74, 97, 0.25)), url(/photo/Group481.svg);
   background-size: cover;
-  z-index: 1;
+  z-index: 1 !important;
 }
 
 .group47 {
