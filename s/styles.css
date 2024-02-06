@@ -367,7 +367,7 @@ input:checked+.slider:before {
 }
 
 .insta {
-  border: 0;
+  display: block;
   background: rgba(255, 255, 255, 0);
   background-image: url(/photo/instagram.png);
   width: 30px;
@@ -375,7 +375,7 @@ input:checked+.slider:before {
 }
 
 .twitter {
-  border: 0;
+  display: block;
   background: rgba(255, 255, 255, 0);
   background-image: url(/photo/twitter.png);
   width: 32.33px;
@@ -385,7 +385,7 @@ input:checked+.slider:before {
 }
 
 .youtube {
-  border: 0;
+  display: block;
   background: rgba(255, 255, 255, 0);
   background-image: url(/photo/YouTube.png);
   width: 50px;
