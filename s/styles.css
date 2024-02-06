@@ -490,7 +490,7 @@ input:checked+.slider:before {
 .group40 {
   display: flex;
   flex-wrap: wrap;
-  width: 100%px;
+  width: 100%;
   height: 704px;
   top: 2331px;
   margin-left: auto;
