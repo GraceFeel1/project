@@ -24,7 +24,7 @@ li {
   margin-right: auto;
   background-repeat: repeat;
   background-position: center;
-  background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(/photo/Rectangle104.jpg);
+  background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(photo/Rectangle104.jpg);
   background-size: cover;
   z-index: 1;
 }
@@ -33,7 +33,7 @@ li {
   background: rgba(255, 255, 255, 0);
   width: 186px;
   height: 72px;
-  background-image: url(/photo/avatar-2-6235acaebf9262.png);
+  background-image: url(photo/avatar-2-6235acaebf9262.png);
   background-repeat: no-repeat;
   background-position: left;
   z-index: 2;
@@ -109,7 +109,7 @@ li {
   display: block;
   border: 0;
   background: rgba(255, 255, 255, 0);
-  background-image: url(/photo/Group14.png);
+  background-image: url(photo/Group14.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 141px;
@@ -135,7 +135,7 @@ li {
 .heada {
   display: block;
   background: rgba(255, 255, 255, 0);
-  background-image: url(/photo/Rectangle85.png);
+  background-image: url(photo/Rectangle85.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 260px;
@@ -295,7 +295,7 @@ input:checked+.slider:before {
   margin-right: auto;
   background-repeat: repeat;
   background-position: center;
-  background-image: linear-gradient(to right, rgba(43, 74, 97, 0.25), rgba(43, 74, 97, 0.25)), url(/photo/Group481.svg);
+  background-image: linear-gradient(to right, rgba(43, 74, 97, 0.25), rgba(43, 74, 97, 0.25)), url(photo/Group481.svg);
   background-size: cover;
   z-index: 1;
 }
