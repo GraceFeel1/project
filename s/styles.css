@@ -60,7 +60,7 @@ li {
   left: 558px;
   font-family: 'Inter';
   font-size: 20px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
@@ -75,7 +75,7 @@ li {
   left: 678px;
   font-family: 'Inter';
   font-size: 20px;
-  font-weight: 300px;
+  font-weight: 300;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
@@ -91,7 +91,7 @@ li {
   left: 794px;
   font-family: 'Inter';
   font-size: 20px;
-  font-weight: 300px;
+  font-weight: 300;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
@@ -118,7 +118,7 @@ li {
   margin-top: 54px;
   font-family: 'Headland One';
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 25px;
   letter-spacing: 0em;
   text-align: center;
@@ -146,7 +146,7 @@ li {
   margin-top: 20px;
   font-family: 'Headland One';
   font-size: 22px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
@@ -314,7 +314,7 @@ input:checked+.slider:before {
   left: 204px;
   font-family: 'Inter';
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
@@ -407,7 +407,7 @@ input:checked+.slider:before {
   margin-right: auto;
   font-family: 'Inter';
   font-size: 36px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 44px;
   letter-spacing: 0em;
   text-align: center;
@@ -418,7 +418,7 @@ input:checked+.slider:before {
   margin-left: auto;
   margin-right: auto;
   font-size: 24px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: center;
