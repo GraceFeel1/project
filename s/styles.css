@@ -83,7 +83,9 @@ li {
   margin-left: 75px;
   margin-right: 75px;
 }
-
+.headsulka:nth-child(2):hover {
+  color: rgba(148, 207, 255, 1);
+}
 .headsulka:nth-child(3) {
   text-decoration: none;
   height: 24px;
@@ -98,6 +100,9 @@ li {
   color: rgba(255, 255, 255, 1);
   margin-left: 0;
   
+}
+.headsulka:nth-child(3):hover {
+  color: rgba(148, 207, 255, 1);
 }
 .headsulkaeng {
   margin-right: 35px !important;
