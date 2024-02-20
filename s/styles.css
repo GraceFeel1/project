@@ -1054,3 +1054,6 @@ input:checked+.slider:before {
 .loginputua2 {
   margin-left: 74px;
 }
+.loginsubmitbutton:hover {
+  cursor: pointer;
+}
