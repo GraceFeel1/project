@@ -922,3 +922,8 @@ input:checked+.slider:before {
   text-align: center;
   color: rgba(255, 255, 255, 1);
 }
+.animate__group { 
+ animation: backInUp; 
+  animation-duration: 2s; 
+
+}
