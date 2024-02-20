@@ -202,9 +202,9 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(204, 204, 204, 0.);
-  -webkit-transition: .4s;
-  transition: .4s;
+  background-color: rgba(204, 204, 204, 0);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 
 }
 
